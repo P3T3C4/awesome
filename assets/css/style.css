@@ -1,0 +1,160 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+}
+header {
+    width: 100vw;
+    height: 128px;
+}
+.header-top {
+    width: 100vw;
+    height: 58px;
+}
+.header-bottom {
+    width: 100vw;
+    height: 70px;
+    background-color: #fff;
+}
+.aligment {
+    width: 1172px;
+    height: 100%;
+    margin: auto;
+}
+.header-top-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts {
+    width: auto;
+    height: 15px;
+    margin-right: 180px;
+    display: flex;
+    align-items: center;
+}
+.contacts img {
+    width: 16px;
+}
+.contacts h3 {
+    color: #fffee1;
+    font-size: 16px;
+    margin-left: 5px
+}
+.contacts span {
+    margin-left: 4px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.contacts span a {
+    color: #fffee1;
+    text-decoration: none;
+}
+.contacts h4 {
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.contacts h4:hover a {
+    color: rgba(29, 149, 214, 0.808);
+}
+.contacts h4 a {
+    color: #666666;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.social-networks {
+    width: auto;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+.social-networks {
+    color: #fffee1;
+    font-size: 14px;
+}
+.icon-face,
+.icon-tw,
+.icon-insta,
+.icon-apple {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.icon-face {
+    background: #fffee1;
+    -webkit-mask-image: url('../img/logotipo.png');
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+ 
+}
+.icon-face:hover,
+.icon-tw:hover,
+.icon-insta:hover,
+.icon-apple:hover {
+    background: rgba(29, 149, 214, 0.808);
+}
+.icon-tw {
+    background: #fffee1;
+    -webkit-mask-image: url('../img/tw.png');
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+
+}
+.icon-insta {
+    background: #fffee1;
+    -webkit-mask-image: url('../img/instagram.png');
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+.icon-apple {
+    background: #fffee1;
+    -webkit-mask-image: url('../img/logotipo\ \(1\).png');
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+.header-bottom-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: #747671;
+    font-weight: 300;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.menu {
+    margin-left: 562px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu a {
+    color: #757a76;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.menu li:hover a {
+    color: rgba(29, 149, 214, 0.808);
+}
+.menu li {
+    margin-left: 20px
+}
